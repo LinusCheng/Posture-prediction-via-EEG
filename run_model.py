@@ -261,8 +261,6 @@ def ConvNet_nocrop(data_list):
 
 
 """ ConvNet """
-
- 
 def ConvNet(data_list,epoch_all,batch_size,lr_decay):
     
     [train_len, test_len ,x_train, y_train, x_test , y_test , y_test_crop] = data_list
@@ -399,4 +397,3 @@ def ConvNet(data_list,epoch_all,batch_size,lr_decay):
         
         
         
-
